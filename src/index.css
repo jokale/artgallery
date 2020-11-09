@@ -18,3 +18,9 @@ code {
   position: relative; left: -490px;
   font-weight: 100;
 }
+
+#h3-home {
+  font-family: 'Inconsolata', monospace;
+  position: relative; left: -497px; top: -20px;
+  font-weight: 100;
+}
