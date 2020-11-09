@@ -15,6 +15,6 @@ code {
 
 #title-home {
   font-family: 'Inconsolata', monospace;
-  position: absolute; left: 80px;
+  position: relative; left: -490px;
   font-weight: 100;
 }

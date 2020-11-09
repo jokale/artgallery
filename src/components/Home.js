@@ -10,6 +10,7 @@ class Home extends React.Component {
         return(
             <div>
                 <h1 id='title-home'>ANNAOJ</h1>
+                <h3>atelier</h3>
                 {/* <TiSocialTwitter/> */}
                 <img src={one} alt="picture" />
 
