@@ -1,7 +1,8 @@
 import React from 'react';
 import { TiSocialTwitter} from "react-icons/ti";
 import one from '../components/one.jpg'
-import About from './About'
+import two from '../components/two.jpg'
+
 
 
 
@@ -13,8 +14,9 @@ class Home extends React.Component {
                 <h1 id='title-home'>annaoj</h1>
                 <h3 id='h3-home'>ateliers</h3>
                 {/* <TiSocialTwitter/> */}
-                <img src={one} alt="picture" />
-                <About/>
+                <center><img id="one-pic" src={one} alt="picture" /></center> <br></br>
+               {/* <br></br> <img id="two-pic" src={two} alt="picture" /> */}
+
 
 
             </div>

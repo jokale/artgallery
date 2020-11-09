@@ -15,12 +15,25 @@ code {
 
 #title-home {
   font-family: 'Inconsolata', monospace;
-  position: relative; left: -490px;
+  position: relative; left: 200px;
   font-weight: 100;
 }
 
 #h3-home {
   font-family: 'Inconsolata', monospace;
-  position: relative; left: -497px; top: -20px;
+  position: relative; left: 200px; top: -20px;
   font-weight: 100;
+}
+
+#one-pic {
+  position: absolute; left: 200px;
+}
+
+#two-pic {
+  position: absolute; left: 200px; top: 1050px;
+}
+
+#home-style {
+  font-family: 'Inconsolata', monospace;
+ 
 }

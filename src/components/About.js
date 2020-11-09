@@ -8,8 +8,10 @@ class About extends React.Component {
 
         return(
             <div>
+                <h1 id='title-home'>annaoj</h1>
+                <h3 id='h3-home'>ateliers</h3>
                 <h3 id='h3-about'>about</h3>
-                <img src={two} alt="picture" />
+                {/* <img src={two} alt="picture" /> */}
                 <h5>We are a minimilist gallery........</h5>
 
 

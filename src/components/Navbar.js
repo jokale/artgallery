@@ -5,10 +5,10 @@ const link = {
   width: '10px',
   padding: '1px',
   margin: '0 20px 7px',
-  background: '#7C4F2C',
+  background: '#fffff',
   textDecoration: 'none',
-  color: 'white',
-  fontFamily: 'Secular One',
+  color: 'grey',
+  fontFamily: 'Inconsolata',
   fontsize: '60',
   textAlign: 'right',
   position: 'right',
@@ -23,15 +23,15 @@ class Navbar extends React.Component {
           exact
           style={link}
           activeStyle={{
-            background: '#834105'
+            background: '#FFFFFF'
           }}
-        >Home</NavLink>
+        >home</NavLink>
         <NavLink
           to="/about"
           exact
           style={link}
           activeStyle={{
-            background: '#834105'
+            background: '#FFFFFF'
           }}
         >about</NavLink>
         <NavLink
@@ -39,7 +39,7 @@ class Navbar extends React.Component {
           exact
           style={link}
           activeStyle={{
-            background: '#834105'
+            background: '#FFFFFF'
           }}
         >contact</NavLink>
           
