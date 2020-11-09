@@ -1,5 +1,7 @@
-import { findAllByTitle } from '@testing-library/react';
 import React from 'react';
+import { TiSocialTwitter} from "react-icons/ti";
+import one from '../components/one.jpg'
+
 
 
 class Home extends React.Component {
@@ -8,6 +10,10 @@ class Home extends React.Component {
         return(
             <div>
                 <h1 id='title-home'>ANNAOJ</h1>
+                {/* <TiSocialTwitter/> */}
+                <img src={one} alt="picture" />
+
+
             </div>
         )
     }
