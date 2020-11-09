@@ -28,6 +28,13 @@ code {
 #one-pic {
   position: absolute; left: 200px;
 }
+#three-pic {
+  position: absolute; left: 200px;top: 1100px;
+}#four-pic {
+  position: absolute; left: 200px;top: 1980px;
+}#five-pic {
+  position: absolute; left: 200px;top: 3500px;
+}
 
 #two-pic {
   position: absolute; left: 200px; top: 1050px;
@@ -36,4 +43,34 @@ code {
 #home-style {
   font-family: 'Inconsolata', monospace;
  
+}
+
+#h3-about {
+  font-family: 'Inconsolata', monospace;
+  position: relative; left: 200px; top: 0px;
+  font-weight: 500;
+  font-size: larger;
+  color: rgb(99, 92, 92);
+}
+
+#p-test{
+  word-wrap: break-word;
+  position: absolute; left: 200px;
+  font-family: 'Inconsolata', monospace;
+
+}
+
+#a-about{
+  font-family: 'Inconsolata', monospace;
+  position: relative; left: 200px; bottom: -4000px;
+  font-weight: 500;
+  font-size: larger;
+  color: rgb(99, 92, 92);
+}
+
+div#footer{
+  font-family: 'Inconsolata', monospace;
+  color: black;
+  /* position:  relative; left: 200px; bottom: -900px; */
+  position: sticky;
 }

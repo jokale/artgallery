@@ -2,6 +2,7 @@ import React from 'react';
 import { TiSocialTwitter} from "react-icons/ti";
 import one from '../components/one.jpg'
 import two from '../components/two.jpg'
+import Footer from './Footer';
 
 
 
@@ -17,7 +18,7 @@ class Home extends React.Component {
                 <center><img id="one-pic" src={one} alt="picture" /></center> <br></br>
                {/* <br></br> <img id="two-pic" src={two} alt="picture" /> */}
 
-
+                <Footer/>
 
             </div>
         )

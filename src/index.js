@@ -5,7 +5,7 @@ import App from './App';
 // import reportWebVitals from './reportWebVitals';
 import Navbar from './components/Navbar'
 import Home from './components/Home'
-import Contact from './components/Contact'
+import Work from './components/Work'
 import About from './components/About'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -16,7 +16,7 @@ ReactDOM.render(
     <Navbar/>
     <Route exact path="/" component={Home} />
     <Route exact path="/about" component={About} />
-    <Route exact path="/contact" component={Contact} />
+    <Route exact path="/work" component={Work} />
   </Router> ,
   document.getElementById('root')
 );

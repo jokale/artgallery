@@ -2,9 +2,9 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
  
 const link = {
-  width: '10px',
-  padding: '1px',
-  margin: '0 20px 7px',
+  width: '20px',
+  padding: '9px',
+  margin: '0 30px 5px',
   background: '#fffff',
   textDecoration: 'none',
   color: 'grey',
@@ -12,6 +12,9 @@ const link = {
   fontsize: '60',
   textAlign: 'right',
   position: 'right',
+  display: 'flex',
+  bottom: '10px'
+
 }
  
 class Navbar extends React.Component {
@@ -35,13 +38,13 @@ class Navbar extends React.Component {
           }}
         >about</NavLink>
         <NavLink
-          to="/contact"
+          to="/work"
           exact
           style={link}
           activeStyle={{
             background: '#FFFFFF'
           }}
-        >contact</NavLink>
+        >work</NavLink>
           
       </div>
     )
