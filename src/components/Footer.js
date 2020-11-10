@@ -16,7 +16,7 @@ class Footer extends React.Component {
                 <a href="https://www.termsfeed.com/blog/sample-privacy-policy-template/"  target="_blank" rel="noopener noreferrer">Privacy policy </a></h6>
 
                 <br></br>
-                <h6>Joanna E Kalema Web Applications </h6>
+                <h6><a href="https://joannathedeveloper.netlify.app/" target="_blank" rel="noopener noreferrer">J.E.Kalema Web Applications</a> </h6>
 
 
 

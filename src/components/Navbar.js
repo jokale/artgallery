@@ -21,30 +21,30 @@ class Navbar extends React.Component {
   render() {
     return (
       <div id="navbar">
-        <NavLink
+        <h6><NavLink
           to="/"
           exact
           style={link}
           activeStyle={{
             background: '#FFFFFF'
           }}
-        >home</NavLink>
-        <NavLink
+        >home</NavLink></h6>
+        <h6><NavLink
           to="/about"
           exact
           style={link}
           activeStyle={{
             background: '#FFFFFF'
           }}
-        >about</NavLink>
-        <NavLink
+        >about</NavLink></h6>
+       <h6><NavLink
           to="/work"
           exact
           style={link}
           activeStyle={{
             background: '#FFFFFF'
           }}
-        >work</NavLink>
+        >work</NavLink></h6>
           
       </div>
     )
