@@ -71,7 +71,15 @@ code {
 div#footer{
   font-family: 'Inconsolata', monospace;
   color: grey;
-   position:  relative; left: 40px; top: -100px;
+   position:  relative; left: 40px; top: -130px;
+  /* position: sticky;  */
+   /* flex-shrink: 0;  */
+
+}
+div#footer-work{
+  font-family: 'Inconsolata', monospace;
+  color: grey;
+   position:  relative; left: 40px; top: -290px;
   /* position: sticky;  */
    /* flex-shrink: 0;  */
 
