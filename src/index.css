@@ -71,9 +71,9 @@ code {
 div#footer{
   font-family: 'Inconsolata', monospace;
   color: grey;
-   position:  relative; left: 40px; top: -300px;
+   position:  relative; left: 40px; top: -100px;
   /* position: sticky;  */
-   flex-shrink: 0; 
+   /* flex-shrink: 0;  */
 
 }
 

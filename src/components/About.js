@@ -15,9 +15,20 @@ class About extends React.Component {
                 <br></br>In sollicitudin est nec mattis rutrum. In luctus neque at ligula tincidunt, a interdum nunc mollis.  <br></br>
                 <br></br>Duis ultrices augue non tortor laoreet ultricies. Nunc ut posuere velit. Donec fermentum viverra nunc et pellentesque. 
                 <br></br>Pellentesque tincidunt leo ipsum.</p>
+                <p id="p-test">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis laoreet neque. <br></br>
+                <br></br>In sollicitudin est nec mattis rutrum. In luctus neque at ligula tincidunt, a interdum nunc mollis.  <br></br>
+                <br></br>Duis ultrices augue non tortor laoreet ultricies. Nunc ut posuere velit. Donec fermentum viverra nunc et pellentesque. 
+                <br></br>Pellentesque tincidunt leo ipsum.</p>
+                <p id="p-test">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis laoreet neque. <br></br>
+                <br></br>In sollicitudin est nec mattis rutrum. In luctus neque at ligula tincidunt, a interdum nunc mollis.  <br></br>
+                <br></br>Duis ultrices augue non tortor laoreet ultricies. Nunc ut posuere velit. Donec fermentum viverra nunc et pellentesque. 
+                <br></br>Pellentesque tincidunt leo ipsum.</p>
+                <p id="p-test">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis laoreet neque. <br></br>
+                <br></br>In sollicitudin est nec mattis rutrum. In luctus neque at ligula tincidunt, a interdum nunc mollis.  <br></br>
+                <br></br>Duis ultrices augue non tortor laoreet ultricies. Nunc ut posuere velit. Donec fermentum viverra nunc et pellentesque. 
+                <br></br>Pellentesque tincidunt leo ipsum.</p>
 
-
-            <Footer/>
+           <Footer/>
             </div>
         )
     }
